@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-07T08:57:40 COT" name="Suite" finished-at="2022-10-07T09:05:06 COT" duration-ms="446332">
+    <groups>
+    </groups>
+    <test started-at="2022-10-07T08:57:40 COT" name="Test" finished-at="2022-10-07T09:05:06 COT" duration-ms="446332">
+      <class name="com.testNG.RunTestNG">
+        <test-method is-config="true" signature="beforeClass(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testNG.RunTestNG@6eda5c9]" started-at="2022-10-07T08:57:40 COT" name="beforeClass" finished-at="2022-10-07T08:57:40 COT" duration-ms="50" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[./imagenes/mercadolibre.png]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[./imagenes/calculadora.png]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[./imagenes/toolsqa.png]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[BPN0218A16001722]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="calculadoraTestNG(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.testNG.RunTestNG@6eda5c9]" started-at="2022-10-07T08:57:42 COT" name="calculadoraTestNG" data-provider="calculadora" finished-at="2022-10-07T08:58:34 COT" duration-ms="51933" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[456]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[multiplicación]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[45]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[com.android.calculator2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[com.android.calculator2.Calculator]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Si]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[On]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- calculadoraTestNG -->
+        <test-method signature="mercadoLibreTestNG(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.testNG.RunTestNG@6eda5c9]" started-at="2022-10-07T08:58:35 COT" name="mercadoLibreTestNG" data-provider="mercadolibre" finished-at="2022-10-07T09:00:06 COT" duration-ms="91219" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.mercadolibre.com.ar/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[freidora]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[wardila0012@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[com.android.chrome]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[com.google.android.apps.chrome.Main]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Si]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[On]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mercadoLibreTestNG -->
+        <test-method signature="alertsTestNG(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.testNG.RunTestNG@6eda5c9]" started-at="2022-10-07T09:00:06 COT" name="alertsTestNG" data-provider="alerts" finished-at="2022-10-07T09:01:07 COT" duration-ms="60482" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://demoqa.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Prueba ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[com.android.chrome]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[com.google.android.apps.chrome.Main]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Si]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[On]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[androidx.test.uiautomator.StaleObjectException
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DOMUH27', ip: '192.168.11.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.google.android.apps.chr..., appPackage: com.android.chrome, autoGrantPermissions: true, databaseEnabled: false, desired: {appActivity: com.google.android.apps.chr..., appPackage: com.android.chrome, autoGrantPermissions: true, deviceName: BPN0218A16001722, noReset: true, platformName: android, platformVersion: 10}, deviceApiLevel: 29, deviceManufacturer: HUAWEI, deviceModel: EML-L09, deviceName: BPN0218A16001722, deviceScreenDensity: 480, deviceScreenSize: 1080x2244, deviceUDID: BPN0218A16001722, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 10, statBarHeight: 85, takesScreenshot: true, viewportRect: {height: 1946, left: 0, top: 85, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: db044102-41d5-4df5-a39f-2953e49c63b7]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: androidx.test.uiautomator.StaleObjectException
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DOMUH27', ip: '192.168.11.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.google.android.apps.chr..., appPackage: com.android.chrome, autoGrantPermissions: true, databaseEnabled: false, desired: {appActivity: com.google.android.apps.chr..., appPackage: com.android.chrome, autoGrantPermissions: true, deviceName: BPN0218A16001722, noReset: true, platformName: android, platformVersion: 10}, deviceApiLevel: 29, deviceManufacturer: HUAWEI, deviceModel: EML-L09, deviceName: BPN0218A16001722, deviceScreenDensity: 480, deviceScreenSize: 1080x2244, deviceUDID: BPN0218A16001722, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 10, statBarHeight: 85, takesScreenshot: true, viewportRect: {height: 1946, left: 0, top: 85, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: db044102-41d5-4df5-a39f-2953e49c63b7
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:45)
+at io.appium.java_client.MobileElement.execute(MobileElement.java:1)
+at io.appium.java_client.android.AndroidElement.execute(AndroidElement.java:1)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at com.ClaseBase.ClasesBase.click(ClasesBase.java:151)
+at com.PagesObjets.PagsObjetAlerts.alerts(PagsObjetAlerts.java:35)
+at com.testNG.RunTestNG.alertsTestNG(RunTestNG.java:230)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alertsTestNG -->
+        <test-method signature="widgetsTestNG(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:com.testNG.RunTestNG@6eda5c9]" started-at="2022-10-07T09:01:07 COT" name="widgetsTestNG" data-provider="widgts" finished-at="2022-10-07T09:05:05 COT" duration-ms="237875" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://demoqa.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[com.android.chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[com.google.android.apps.chrome.Main]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Si]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[On]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- widgetsTestNG -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.testNG.RunTestNG@6eda5c9]" started-at="2022-10-07T09:05:05 COT" name="afterClass" finished-at="2022-10-07T09:05:06 COT" duration-ms="1670" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.testNG.RunTestNG -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

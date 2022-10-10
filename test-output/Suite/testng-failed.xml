@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="rutaImgTQA" value="./imagenes/toolsqa.png"/>
+    <parameter name="rutaImgML" value="./imagenes/mercadolibre.png"/>
+    <parameter name="noReset" value="true"/>
+    <parameter name="platformVersion" value="10"/>
+    <parameter name="autoGrantPermissions" value="true"/>
+    <parameter name="platformName" value="Android"/>
+    <parameter name="deviceName" value="BPN0218A16001722"/>
+    <parameter name="rutaImgCL" value="./imagenes/calculadora.png"/>
+    <classes>
+      <class name="com.testNG.RunTestNG">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+          <include name="alertsTestNG" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.testNG.RunTestNG -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
